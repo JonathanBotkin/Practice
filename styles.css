@@ -1,3 +1,18 @@
+
+h1 {
+text-align: center;
+}
+
 body {
 background-color: blue;
+display:flex;
+flex-direction: column;
+justify-content:center;
+align-items: center;
+
+} 
+button {
+    border-radius: 50px 10%;
+    border: 10px 50% blueviolet;
+    width: 10% ;
 }
