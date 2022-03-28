@@ -15,4 +15,8 @@ button {
     border: 10px 50% blueviolet;
     width: 10% ;
 }
-@media (max-width:480px)
+@media (max-width:480px) {
+    button {
+        width: 25%;
+    }
+}
