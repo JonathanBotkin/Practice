@@ -3,18 +3,33 @@ h1 {
 text-align: center;
 }
 body {
-background-color: blue;
-display:flex;
-flex-direction: column;
-justify-content:center;
-align-items: center;
+    color: white;
+    background-image: url(https://64.media.tumblr.com/9873bb8d520ab281294bb868d4519576/tumblr_o9sw33AGJs1vsjcxvo1_r1_540.gifv);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
 
 } 
+a {
+    height: 100%;
+    width: 10rem;
+    border: 1px solid red;
+}
+
 button {
+    display:flex;
+    width: 10rem;
     border-radius: 50px 10%;
     border: 10px 50% blueviolet;
     width: 10% ;
 }
+img {
+    border-radius: 25%;
+}
+
 @media (max-width:480px) {
     button {
         width: 25%;

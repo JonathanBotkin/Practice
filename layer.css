@@ -1,0 +1,17 @@
+body {
+    color: white;
+    background-image: url(https://media4.giphy.com/media/smzfl3E7a4iHK/giphy.gif?cid=ecf05e47neksobmejzpf2gu7yycnibxsim6yotmt7nn3ppei&rid=giphy.gif&ct=g);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+
+@media (max-width:480px) {
+    button {
+        width: 25%;
+    }
+}
